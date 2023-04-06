@@ -1,6 +1,3 @@
-346 lines (315 sloc)  8.35 KB
- 
-
 package api
 
 import (
@@ -8,7 +5,6 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"reflect"
